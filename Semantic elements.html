@@ -12,7 +12,9 @@
     <!-- Semantic elements
     
     The <header> element: represents the header area of a section. Usually contains intro content, navigational menus,and headings for the page or a section -->
-    <header>
+    <fieldset>
+        <legend>Header</legend>
+        <header>
         <h1>Article title</h1>
         <h2>Subtitle</h2>
         <h3>Smaller heading</h3>
@@ -20,36 +22,46 @@
         <h3>Another h3 heading</h3>
         <p>Some text describing this topic</p>
     </header>
-    
+    </fieldset>
     <!--
     The <section> element: "A section is a thematic grouping of content, typically with a heading."
                             A home page could normally be split into sections for introduction, content, and contact information.-->
+    <fieldset>
+        <legend>Section</legend>
     <section>
         <h2> Jo Creep</h2>
         <p>Jo Creep was born in 1978 with divine intervention</p>
     </section>
+    </fieldset>
     
     <!--
     The <article> element: represents a section of the content that should make sense on its own, and it should be possible to read it independently from the rest of the web site.
                          Ex: Forum posts, blog posts, newspaper article-->
+    <fieldset>
+        <legend>Article</legend>
     <article>
         <h1>What Does Jo Creep Do?</h1>
         <p>Jo Creep's mission is to stop the degradation of humankind,
             and build a future in which humans live in harmony with themselves.</p>
     </article>
+    </fieldset>
     
-    <!--
-    The <figure> and <figcaption> elements: The purpose of a figure caption is to add a visual explanation to an image.-->
+    <!--The <figure> and <figcaption> elements: The purpose of a figure caption is to add a visual explanation to an image.-->
+    <fieldset>
+        <legend>Figure</legend>
     <figure>
         <img src="D:\Utile\Photo\fion-brick.jpg" alt="Profile pic" height="549" width="523">
         <figcaption>fig.1 - Jo Creep on walls</figcaption>
     </figure>
+    </fieldset>
     
-        <!-- 
-    The <aside> element: The aside element defines a section of content that is supplemental or unrelated to the main content on the page.
+    <!-- The <aside> element: The aside element defines a section of content that is supplemental or unrelated to the main content on the page.
                          This is often used to create sidebars with ads or extra page content.-->
 
-    <aside>
+    <fieldset>
+        <legend>Aside</legend>
+
+     <aside>
         <h4>Publicity space</h4>
         <p>Ads Ads and more Ads</p>
         <figure>
@@ -57,22 +69,28 @@
             <figcaption>fig.2 - Semantic elements.Page layout</figcaption>
         </figure>
     </aside>
-    
+    </fieldset>
     <!-- 
     The <nav> element: represents a navigation area of the content which includes a navigation bar or links
             Notice that NOT all links of a document should be inside a <nav> element. 
             The <nav> element is intended only for major block of navigation links.-->
+    <fieldset>
+        <legend>Nav</legend>
     <nav>
-    <a href="https://www.facebook.com/Jo.Creep">Facebook</a>
+    <p><strong>Contact Info</strong></p>
+    <a href="https://www.facebook.com/Jo.Creep">Facebook</a><br>
     <a href="https://www.youtube.com/playlist?list=PLF8AF560DBB1D5C05">YouTube playlist</a>
     </nav>
+    </fieldset>
     
-    <!--
-    The <footer> element: specifies a footer for a document.Typically contains infos about the author of doc, copyright, links to terms of use, contact,etc  -->
+    <!--The <footer> element: specifies a footer for a document.Typically contains infos about the author of doc, copyright, links to terms of use, contact,etc  -->
+    <fieldset>
+        <legend>Footer</legend>
     <footer>
         <p>Posted by: Jo Creep</p>
         <p>Contact info: <a href="jo.creep@yahoo.com">jo.creep@yahoo.com</a></p>
     </footer>
+    </fieldset>
 
  
 </body>
