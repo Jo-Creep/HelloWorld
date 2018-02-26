@@ -1,6 +1,10 @@
+/*the selector { property: value} */
 p {
     color:green;
     font-family: Lucida Sans;
+    background-color: #FC9D9A;
+    padding: 50px;
+    font-size: 2em;
 }
 body {
     background-color: #83AF9B;
@@ -14,4 +18,8 @@ h1 {
     color: #F9CDAD;
     font-size: 8em;
     padding: 50px;
+}
+ul {
+    color:lightblue;
+    font-size: 4em;
 }
