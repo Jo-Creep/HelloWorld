@@ -1,0 +1,17 @@
+p {
+    color:green;
+    font-family: Lucida Sans;
+}
+body {
+    background-color: #83AF9B;
+    text-align: center;
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    background-color: #FE4365;
+    color: #F9CDAD;
+    font-size: 8em;
+    padding: 50px;
+}
