@@ -1,0 +1,11 @@
+h1 {
+    font-family: fantasy;
+    font-size: 5em;
+    font-style: italic;
+    color: olive;
+    background-color: peachpuff;
+    padding-left: 40%; 
+    border: 10px darkgreen dashed;
+    border-radius: 10px;
+
+}
