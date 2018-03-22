@@ -1,0 +1,25 @@
+h1 {
+    background-color: red;
+    width: 500px;
+    text-align: center;
+}
+h2 {
+    background-color: orange;
+    text-align: right;
+}
+p {
+    background-color: yellow;
+    width: 500px;
+    padding: 10px;
+    text-align: justify;
+}
+h3 {
+    background-color: green;
+    line-height: 200px;
+}
+/* Text lives within a specified vertical space, where the "baseline" or the line on which the text is drawn is by default in the middle of that vertical space. If you change the height of the containing HTML block, the text will remain at the top of the block. However, if you instead use the "line-height" property, then the block will grow and the text will vertically center within it. */
+h4 {
+    background-color: blueviolet;
+    height: 200px;
+    line-height: 100px;
+}
