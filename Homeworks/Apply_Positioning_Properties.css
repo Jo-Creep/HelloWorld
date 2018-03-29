@@ -1,0 +1,50 @@
+body {
+    background-color: #4ABDAC;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+}
+header {
+    background-color: #F7B733;
+    line-height: 100px;
+}
+
+h2 {
+    float: right;
+    margin: auto ;
+}
+h1 {
+    margin: auto;
+}
+#content {
+    background-color: #DFDCE3;
+    height: 400px;
+    width: 50%;
+    margin: auto;
+}
+#topRight , #topLeft , #bottomRight , #bottomLeft {
+    background-color: red;
+    width: 40%;
+    height: 40%;
+}
+#topRight {
+    float: right;
+    margin-right: 3%;
+}
+#bottomRight {
+    float: right;
+    margin-right: 3%;  
+    margin-top: 5%;
+}
+#topLeft {
+    margin-left: 3%;
+}
+#bottomLeft {
+    margin-left: 3%;
+    margin-top: 5%;
+}
+#navigation {
+    background-color: turquoise;
+}
+#navigation li:hover {
+    
+}
