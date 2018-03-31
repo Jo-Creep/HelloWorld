@@ -20,6 +20,7 @@ h1 {
     height: 400px;
     width: 50%;
     margin: auto;
+    padding: 25px;
 }
 #topRight , #topLeft , #bottomRight , #bottomLeft {
     background-color: red;
@@ -44,6 +45,12 @@ h1 {
 }
 #navigation {
     background-color: turquoise;
+    text-align: center;
+}
+li {
+    display: inline;
+    padding: 15px;
+
 }
 #navigation li:hover {
     
