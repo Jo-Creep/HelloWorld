@@ -1,0 +1,27 @@
+section, header, footer {
+    margin: 10px;
+    border: 1px black solid;
+    padding: 10px;
+    min-height: 60px;
+}
+.grayBackground {
+    background-color: #00b3b3;
+}
+.tanBackground {
+    background-color: #D4C0A7;
+}
+.purpleBackground {
+    background-color: purple;
+}
+header.purpleBackground {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+header.purpleBackground > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: limegreen;
+}
+section.grayBackground {
+    color: magenta;
+}
