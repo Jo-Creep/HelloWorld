@@ -1,0 +1,16 @@
+section {
+    padding: 20px;
+    margin: 20px;
+}
+.title {
+    background-color: #A6BE9E;
+    font-weight: bold;
+}
+.brand {
+    background-color: #082833;
+    color: #C24726;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+    
