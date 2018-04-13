@@ -1,0 +1,15 @@
+p {
+    font-style: italic;
+} /*all of the paragraph blocks are styled to have italic text */
+article p {
+    font-size: x-small;
+} /* Only the paragraph blocks within the article element are styled to be extra small.*/
+article > p {
+    color: red;
+} /* only the single paragraph element that is a direct child of the article element is styled with red text.*/
+article > section > p {
+    color: blue;
+} /* Observe that the two paragraph elements within the section element are styled with blue text.*/
+article > section > p:last-child {
+    font-weight: bold;
+} /* Observe that the last paragraph element within the section element has bold text.*/
