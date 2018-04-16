@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Caveat ;
+    src: url('D:/Movie/WEB/EdX HTML/HelloWorld/fonts/caveat.ttf') format('truetype') ;
+}
+body {
+    font-family: Caveat ;
+    font-size: x-large;
+}
+@font-face {
+    font-family: Chonburi ;
+    src: url('D:/Movie/WEB/EdX HTML/HelloWorld/fonts/chonburi.ttf') format('truetype')
+}
+@font-face {
+    font-family: Itim ;
+    src: url('D:/Movie/WEB/EdX HTML/HelloWorld/fonts/itim.ttf')
+}
