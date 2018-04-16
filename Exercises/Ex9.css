@@ -1,6 +1,6 @@
 @font-face {
     font-family: Amarillo ;
-    src: url('D:/Movie/WEB/EdX HTML/HelloWorld/styles/amarillo/Amarillo.otf') ;
+    src: url('D:/Movie/WEB/EdX HTML/HelloWorld/styles/amarillo/Amarillo.otf') format('truetype');
 }
 body {
     font-family: Amarillo ;
