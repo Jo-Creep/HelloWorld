@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Amarillo ;
+    src: url('D:/Movie/WEB/EdX HTML/HelloWorld/styles/amarillo/Amarillo.otf') ;
+}
+body {
+    font-family: Amarillo ;
+    font-size: 50px;
+    background-color: beige;
+    color: green;
+
+}
+body > p {
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
