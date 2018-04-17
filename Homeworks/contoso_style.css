@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "News Cycle";
+    src: url('D:/Movie/WEB/EdX HTML/HelloWorld/fonts/news_cycle.ttf')
+}
+@font-face {
+    font-family: "Contrail One";
+    src: url('D:/Movie/WEB/EdX HTML/HelloWorld/fonts/contrail_one.ttf')
+}
+body {
+    color: #635959;
+    font-family: "News Cycle"
+}
+header {
+    font-family: "Contrail One";
+    background-color: #242323;
+    color: #EFEFEF;
+    padding: 20px 50px;
+}
+h3, article > h4 {
+    color: #8C1018;
+}
+a {
+    color: #314052;
+}
+header > h1 {
+    font-size: 4em;
+}
+figure > figcaption {
+    font-size: 0.75em;
+    font-style: italic;
+}
+figure > figcaption::before { /*This rule will add content before the element using the special ::before selector in CSS.  */
+    content: 'Pictured above: ';
+    font-weight: bold;
+}
+article > time {
+    float: right;
+    font-size: 0.75em;
+    font-weight: lighter;
+}
+main > h3 {
+    font-size: 2em;
+}
+main {
+    padding: 5px 10px;
+}
+article {
+    margin: 5px 0px;
+    padding: 5px 5px;
+    box-shadow: -1px -1px 6px #888888;
+}
