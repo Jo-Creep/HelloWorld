@@ -6,30 +6,33 @@
     font-family: "Contrail One";
     src: url('D:/Movie/WEB/EdX HTML/HelloWorld/fonts/contrail_one.ttf')
 }
+@media not print {
 body {
     color: #635959;
-    font-family: "News Cycle"
 }
 header {
-    font-family: "Contrail One";
     background-color: #242323;
     color: #EFEFEF;
     padding: 20px 50px;
 }
-h3, article > h4 {
+h3, article h4 {
     color: #8C1018;
 }
-a {
+article a {
     color: #314052;
 }
-header > h1 {
+main > h3 {
+    font-size: 2em;
+}
+}
+header h1 {
     font-size: 4em;
 }
-figure > figcaption {
+main figure > figcaption {
     font-size: 0.75em;
     font-style: italic;
 }
-figure > figcaption::before { /*This rule will add content before the element using the special ::before selector in CSS.  */
+main figure > figcaption::before { /*This rule will add content before the element using the special ::before selector in CSS.  */
     content: 'Pictured above: ';
     font-weight: bold;
 }
@@ -38,14 +41,33 @@ article > time {
     font-size: 0.75em;
     font-weight: lighter;
 }
-main > h3 {
-    font-size: 2em;
-}
+
 main {
     padding: 5px 10px;
+}
+body {
+    font-family: "News Cycle";
+}
+header {
+    font-family: "Contrail One";
 }
 article {
     margin: 5px 0px;
     padding: 5px 5px;
     box-shadow: -1px -1px 6px #888888;
+}
+@media print {
+    header {
+        padding: 0px;
+    }
+    article {
+        box-shadow: none;
+    }
+    header  h1 {
+        font-size: 2em;
+    }
+    header  h2 {
+        display: none;
+    }
+
 }
