@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+            <title>Web page with JS</title>
+    </head>
+    <body>
+        <h1 id="header">This is my html page</h1>
+        <script>
+            var msg = "Hello, world!" ;
+            alert(msg) ;
+            console.log("Hello, console!") ;
+            document.write("Hello, document!") ;
+            document.getElementById("header").innerHTML = msg ; /*this method selects the HTML element on the page that has the ID you request.you can then modify its contents using its innerHTML property and provide the content to replace the existing content. The innerHTML property refers to everything between an element's start and end tags. For <p>, <h1>-<h6>, <li>, and similar elements, the innerHTML content is typically text. You can also include HTML code in the inner HTML of an element. (Since the contents of an element can include HTML). */
+
+        </script>
+    </body>
+</html>
